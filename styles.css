@@ -1,0 +1,140 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.hero {
+    overflow: hidden;
+}
+
+.hero .content {
+    max-width: 50%;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image .circle {
+    position: absolute;
+    top: 30%;
+    left: 86%;
+    width: 800px;
+    height: 800px;
+    background-color: #03b2f9;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.hero-image .circle-1 {
+    position: absolute;
+    top: 60%;
+    left: 86%;
+    width: 600px;
+    height: 600px;
+    background-color: #03b2f9;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.hero-image img {
+    position: relative;
+    z-index: 1;
+    left: 20%;
+    margin-top: 250px;
+}
+
+#caracteristicas .feature-icon {
+    font-size: 3em;
+}
+
+#ventajas .content h2 {
+    font-size: 2em;
+}
+
+#ventajas .content ul li h5 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#ventajas .content ul li p {
+    font-size: 1.1em;
+}
+.text-primary-1{
+    color: #012448;
+}
+.text-center img{
+    width: 9rem;
+    height: 12rem;
+}
+#contacto{
+    width: 100%;
+}
+.btn{
+    border-radius: 20px;
+}
+.inicio_1{
+    /* margin-top: 60px; */
+    margin-left: 10px;
+    margin-right: 200px;
+    margin-bottom: 100%;
+}
+#inicio{
+    max-height: 100vh;
+}
+.intro{
+    max-width: 90%;
+}
+.titulo{
+    margin-bottom: 60px;
+}
+.bg-primary{
+    background-color: #03b2f9;
+}
+.anchor-footer{
+    color: #aee3fe;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    left: 0;
+}
+#footer {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+h4{
+    font-size: 18px;
+}
+.formulario div input{
+    
+    margin: 23px 0;
+}
+#contacto {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+@media (min-width: 768px) {
+    .nav-link-con-mayor-interlineado {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
